@@ -10,20 +10,29 @@ import UIKit
 
 class CourseTableViewCell: UITableViewCell {
 
-    var course : Course! {
+//    var course : Course! {
+//        didSet{
+//            textLabel?.text = course.name
+//
+//            if course.number_of_Sessions > 35 {
+//
+//                accessoryType = .detailDisclosureButton
+//                detailTextLabel?.text = "30+ Lessons, please check out"
+//            }
+//            else
+//            {
+//                accessoryType = .none
+//                detailTextLabel?.text = " "
+//            }
+//        }
+//    }
+    
+    var courseviewModal : CourseViewModal! {
+        
         didSet{
-            textLabel?.text = course.name
-            
-            if course.number_of_Sessions > 35 {
-             
-                accessoryType = .detailDisclosureButton
-                detailTextLabel?.text = "30+ Lessons, please check out"
-            }
-            else
-            {
-                accessoryType = .none
-                detailTextLabel?.text = " "
-            }
+                textLabel?.text = courseviewModal.courseName
+                accessoryType = courseviewModal.accessoryType
+                detailTextLabel?.text = courseviewModal.courseDetailInfo
         }
     }
     

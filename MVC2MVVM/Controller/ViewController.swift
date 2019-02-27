@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    var courses = [Course]()
+    //var courses = [Course]()
+    var coursesViewModal = [CourseViewModal]()
     let cellId = "cellID"
     
     override func viewDidLoad() {
@@ -20,7 +21,7 @@ class ViewController: UITableViewController {
         registerCells()
         setupNavigationBar()
         
-        self.fetchCoursesDetails()
+        self.fetchCoursesDetails()  // Temp : update to make service call fetch request
         self.tableView.reloadData()
     }
     
@@ -44,14 +45,14 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return courses.count
+        return coursesViewModal.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! CourseTableViewCell
         
-        cell.course = courses[indexPath.row]
+        cell.courseviewModal = coursesViewModal[indexPath.row]
         
         return cell
     }
@@ -67,7 +68,7 @@ class ViewController: UITableViewController {
             course.name = "Course \(index)"
             course.number_of_Sessions = index * 10
             
-            courses.append(course)
+            coursesViewModal.append(CourseViewModal(course: course))
         }
     
     }

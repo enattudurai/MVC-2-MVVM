@@ -16,6 +16,7 @@
 		03A4625F22264AE500F27FD9 /* MVC2MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4625E22264AE500F27FD9 /* MVC2MVVMUITests.swift */; };
 		03A4627022264B3100F27FD9 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4626F22264B3100F27FD9 /* CourseTableViewCell.swift */; };
 		03A4627222264C2B00F27FD9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4627122264C2B00F27FD9 /* Course.swift */; };
+		03A46275222675C100F27FD9 /* CourseViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A46274222675C100F27FD9 /* CourseViewModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		03A4626022264AE500F27FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A4626F22264B3100F27FD9 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		03A4627122264C2B00F27FD9 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		03A46274222675C100F27FD9 /* CourseViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		03A4623D22264AE300F27FD9 /* MVC2MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				03A462732226759800F27FD9 /* CourseViewModal */,
 				03A4626E22264B1400F27FD9 /* Modal */,
 				03A4626D22264B0E00F27FD9 /* View */,
 				03A4626C22264AFF00F27FD9 /* Controller */,
@@ -153,6 +156,14 @@
 				03A4627122264C2B00F27FD9 /* Course.swift */,
 			);
 			path = Modal;
+			sourceTree = "<group>";
+		};
+		03A462732226759800F27FD9 /* CourseViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				03A46274222675C100F27FD9 /* CourseViewModal.swift */,
+			);
+			path = CourseViewModal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				03A4627222264C2B00F27FD9 /* Course.swift in Sources */,
 				03A4624122264AE300F27FD9 /* ViewController.swift in Sources */,
 				03A4623F22264AE300F27FD9 /* AppDelegate.swift in Sources */,
+				03A46275222675C100F27FD9 /* CourseViewModal.swift in Sources */,
 				03A4627022264B3100F27FD9 /* CourseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
