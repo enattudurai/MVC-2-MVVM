@@ -12,29 +12,10 @@
 		03A4624422264AE300F27FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A4624222264AE300F27FD9 /* Main.storyboard */; };
 		03A4624622264AE500F27FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A4624522264AE500F27FD9 /* Assets.xcassets */; };
 		03A4624922264AE500F27FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A4624722264AE500F27FD9 /* LaunchScreen.storyboard */; };
-		03A4625422264AE500F27FD9 /* MVC2MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4625322264AE500F27FD9 /* MVC2MVVMTests.swift */; };
-		03A4625F22264AE500F27FD9 /* MVC2MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4625E22264AE500F27FD9 /* MVC2MVVMUITests.swift */; };
 		03A4627022264B3100F27FD9 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4626F22264B3100F27FD9 /* CourseTableViewCell.swift */; };
 		03A4627222264C2B00F27FD9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A4627122264C2B00F27FD9 /* Course.swift */; };
 		03A46275222675C100F27FD9 /* CourseViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A46274222675C100F27FD9 /* CourseViewModal.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		03A4625022264AE500F27FD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03A4623322264AE300F27FD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03A4623A22264AE300F27FD9;
-			remoteInfo = MVC2MVVM;
-		};
-		03A4625B22264AE500F27FD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03A4623322264AE300F27FD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03A4623A22264AE300F27FD9;
-			remoteInfo = MVC2MVVM;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03A4623B22264AE300F27FD9 /* MVC2MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC2MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +25,6 @@
 		03A4624522264AE500F27FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A4624822264AE500F27FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A4624A22264AE500F27FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03A4624F22264AE500F27FD9 /* MVC2MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVC2MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A4625322264AE500F27FD9 /* MVC2MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC2MVVMTests.swift; sourceTree = "<group>"; };
-		03A4625522264AE500F27FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03A4625A22264AE500F27FD9 /* MVC2MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVC2MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A4625E22264AE500F27FD9 /* MVC2MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC2MVVMUITests.swift; sourceTree = "<group>"; };
-		03A4626022264AE500F27FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A4626F22264B3100F27FD9 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		03A4627122264C2B00F27FD9 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		03A46274222675C100F27FD9 /* CourseViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModal.swift; sourceTree = "<group>"; };
@@ -63,20 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03A4624C22264AE500F27FD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03A4625722264AE500F27FD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				03A4623D22264AE300F27FD9 /* MVC2MVVM */,
-				03A4625222264AE500F27FD9 /* MVC2MVVMTests */,
-				03A4625D22264AE500F27FD9 /* MVC2MVVMUITests */,
 				03A4623C22264AE300F27FD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				03A4623B22264AE300F27FD9 /* MVC2MVVM.app */,
-				03A4624F22264AE500F27FD9 /* MVC2MVVMTests.xctest */,
-				03A4625A22264AE500F27FD9 /* MVC2MVVMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,24 +71,6 @@
 				03A4624A22264AE500F27FD9 /* Info.plist */,
 			);
 			path = MVC2MVVM;
-			sourceTree = "<group>";
-		};
-		03A4625222264AE500F27FD9 /* MVC2MVVMTests */ = {
-			isa = PBXGroup;
-			children = (
-				03A4625322264AE500F27FD9 /* MVC2MVVMTests.swift */,
-				03A4625522264AE500F27FD9 /* Info.plist */,
-			);
-			path = MVC2MVVMTests;
-			sourceTree = "<group>";
-		};
-		03A4625D22264AE500F27FD9 /* MVC2MVVMUITests */ = {
-			isa = PBXGroup;
-			children = (
-				03A4625E22264AE500F27FD9 /* MVC2MVVMUITests.swift */,
-				03A4626022264AE500F27FD9 /* Info.plist */,
-			);
-			path = MVC2MVVMUITests;
 			sourceTree = "<group>";
 		};
 		03A4626C22264AFF00F27FD9 /* Controller */ = {
@@ -186,42 +125,6 @@
 			productReference = 03A4623B22264AE300F27FD9 /* MVC2MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03A4624E22264AE500F27FD9 /* MVC2MVVMTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03A4626622264AE500F27FD9 /* Build configuration list for PBXNativeTarget "MVC2MVVMTests" */;
-			buildPhases = (
-				03A4624B22264AE500F27FD9 /* Sources */,
-				03A4624C22264AE500F27FD9 /* Frameworks */,
-				03A4624D22264AE500F27FD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03A4625122264AE500F27FD9 /* PBXTargetDependency */,
-			);
-			name = MVC2MVVMTests;
-			productName = MVC2MVVMTests;
-			productReference = 03A4624F22264AE500F27FD9 /* MVC2MVVMTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		03A4625922264AE500F27FD9 /* MVC2MVVMUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03A4626922264AE500F27FD9 /* Build configuration list for PBXNativeTarget "MVC2MVVMUITests" */;
-			buildPhases = (
-				03A4625622264AE500F27FD9 /* Sources */,
-				03A4625722264AE500F27FD9 /* Frameworks */,
-				03A4625822264AE500F27FD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03A4625C22264AE500F27FD9 /* PBXTargetDependency */,
-			);
-			name = MVC2MVVMUITests;
-			productName = MVC2MVVMUITests;
-			productReference = 03A4625A22264AE500F27FD9 /* MVC2MVVMUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,14 +137,6 @@
 				TargetAttributes = {
 					03A4623A22264AE300F27FD9 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					03A4624E22264AE500F27FD9 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 03A4623A22264AE300F27FD9;
-					};
-					03A4625922264AE500F27FD9 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 03A4623A22264AE300F27FD9;
 					};
 				};
 			};
@@ -259,8 +154,6 @@
 			projectRoot = "";
 			targets = (
 				03A4623A22264AE300F27FD9 /* MVC2MVVM */,
-				03A4624E22264AE500F27FD9 /* MVC2MVVMTests */,
-				03A4625922264AE500F27FD9 /* MVC2MVVMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,20 +166,6 @@
 				03A4624922264AE500F27FD9 /* LaunchScreen.storyboard in Resources */,
 				03A4624622264AE500F27FD9 /* Assets.xcassets in Resources */,
 				03A4624422264AE300F27FD9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03A4624D22264AE500F27FD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03A4625822264AE500F27FD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,36 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03A4624B22264AE500F27FD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03A4625422264AE500F27FD9 /* MVC2MVVMTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03A4625622264AE500F27FD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03A4625F22264AE500F27FD9 /* MVC2MVVMUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		03A4625122264AE500F27FD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03A4623A22264AE300F27FD9 /* MVC2MVVM */;
-			targetProxy = 03A4625022264AE500F27FD9 /* PBXContainerItemProxy */;
-		};
-		03A4625C22264AE500F27FD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03A4623A22264AE300F27FD9 /* MVC2MVVM */;
-			targetProxy = 03A4625B22264AE500F27FD9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		03A4624222264AE300F27FD9 /* Main.storyboard */ = {
@@ -477,15 +327,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XADXP4GM3B;
 				INFOPLIST_FILE = MVC2MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.01systems.swift.MVC2MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -494,93 +345,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XADXP4GM3B;
 				INFOPLIST_FILE = MVC2MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.01systems.swift.MVC2MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		03A4626722264AE500F27FD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MVC2MVVMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVC2MVVM.app/MVC2MVVM";
-			};
-			name = Debug;
-		};
-		03A4626822264AE500F27FD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MVC2MVVMTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVMTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVC2MVVM.app/MVC2MVVM";
-			};
-			name = Release;
-		};
-		03A4626A22264AE500F27FD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MVC2MVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVC2MVVM;
-			};
-			name = Debug;
-		};
-		03A4626B22264AE500F27FD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MVC2MVVMUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ef.language.swift.MVC2MVVMUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVC2MVVM;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -601,24 +375,6 @@
 			buildConfigurations = (
 				03A4626422264AE500F27FD9 /* Debug */,
 				03A4626522264AE500F27FD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		03A4626622264AE500F27FD9 /* Build configuration list for PBXNativeTarget "MVC2MVVMTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03A4626722264AE500F27FD9 /* Debug */,
-				03A4626822264AE500F27FD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		03A4626922264AE500F27FD9 /* Build configuration list for PBXNativeTarget "MVC2MVVMUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03A4626A22264AE500F27FD9 /* Debug */,
-				03A4626B22264AE500F27FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
